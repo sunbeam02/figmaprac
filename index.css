@@ -1,0 +1,103 @@
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+    align-items: center;
+}
+
+
+.logo-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-bar > ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-bar > ul > li{
+    margin: 0px 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+#log-in{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.banner{
+position: absolute;
+width: 1200px;
+height: 423px;
+left: 100px;
+top: 154px;
+}
+
+.banner #side-a{
+    width: 601px;
+    height: 370.5px;
+}
+
+.banner #side-a h5{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+align-items: center;
+
+}
+.banner #side-a p{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #777777;
+}
+
+#temp{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 56px;
+color:white;
+position: absolute;
+width: 247px;
+height: 60px;
+left: 0px;
+background: #0A2640;
+border: 2px solid #0A2640;
+border-radius: 56px;
+}
+
+#exp{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 56px;
+gap: 8px;
+position: absolute;
+width: 187px;
+height: 60px;
+left: 271px;
+border: 2px solid #0A2640;
+border-radius: 56px;
+}
+
+.banner-2{
+    width: 494px;
+height: 423px;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
